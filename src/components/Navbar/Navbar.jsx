@@ -11,17 +11,22 @@ export const Navlinks = [
   },
   {
     id: 2,
-    name: "CARS",
+    name: "AVALIAÇÕES",
     link: "/#cars",
   },
   {
     id: 1,
-    name: "ABOUT",
+    name: "SOBRE NÓS",
     link: "/#about",
   },
   {
     id: 1,
-    name: "BOOKING",
+    name: "TEMAS",
+    link: "/#booking",
+  },
+  {
+    id: 1,
+    name: "CADASTRO EQUIPE",
     link: "/#booking",
   },
 ];

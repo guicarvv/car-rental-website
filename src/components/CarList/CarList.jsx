@@ -5,19 +5,19 @@ import car3 from "../../assets/car6.png";
 
 const carList = [
   {
-    name: "BMW UX",
+    name: "LGBTFOBIA",
     price: 100,
     image: whiteCar,
     aosDelay: "0",
   },
   {
-    name: "KIA UX",
+    name: "RACISMO",
     price: 140,
     image: car2,
     aosDelay: "500",
   },
   {
-    name: "BMW UX",
+    name: "MISOGINIA",
     price: 100,
     image: car3,
     aosDelay: "1000",
@@ -33,7 +33,7 @@ const CarList = () => {
           data-aos="fade-up"
           className="text-3xl sm:text-4xl font-semibold font-serif mb-3"
         >
-          Lorem ipsum dolor
+          Projetos Cadastrados
         </h1>
         <p data-aos="fade-up" aos-delay="400" className="text-sm pb-10">
           Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor iure
@@ -63,7 +63,7 @@ const CarList = () => {
                   </div>
                 </div>
                 <p className="text-xl font-semibold absolute top-0 left-3">
-                  12Km
+                  Novos
                 </p>
               </div>
             ))}
@@ -72,7 +72,7 @@ const CarList = () => {
         {/* End of car listing */}
         <div className="grid place-items-center mt-8">
           <button data-aos="fade-up" className="button-outline">
-            Get Started
+            Ver Mais
           </button>
         </div>
       </div>

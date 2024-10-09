@@ -28,7 +28,7 @@ const skillsData = [
       <SlNote className="text-5xl text-primary group-hover:text-black duration-500" />
     ),
     link: "#",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    description: " EXPERIENCIAorem ipsum dolor sit amet consectetur, adipisicing elit.",
     aosDelay: "1000",
   },
 ];

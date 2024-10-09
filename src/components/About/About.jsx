@@ -22,7 +22,7 @@ const About = () => {
                 About us
               </h1>
               <p data-aos="fade-up" className="leading-8 tracking-wide">
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit.
+                Bom dia , tudo bem ? dolor sit amet consectetur adipisicing elit.
                 Aspernatur, magnam! Tenetur odio quo et maxime?
               </p>
               <p data-aos="fade-up">

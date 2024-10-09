@@ -2,21 +2,21 @@ import React from "react";
 
 const testimonialData = [
   {
-    name: "Dilshad",
+    name: "Victor",
     image: "",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    description: "Minha experiencia na S.L.A foi incrivel, espero comparecer novamente no ano que vem.",
     aosDelay: "0",
   },
   {
-    name: "Satya",
+    name: "Ana Luiza",
     image: "",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    description: "Amei o evento, a S.L.A abriu minha mente sobre diversos assuntos que infelizmente não são muito abordados na sociedade",
     aosDelay: "300",
   },
   {
-    name: "Sabir",
+    name: "Isabela",
     image: "",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    description: "Um evento social super inspirador, jamais esquecerei o que eu vivi nesses dias. ",
     aosDelay: "1000",
   },
 ];
@@ -32,11 +32,10 @@ const Testimonial = () => {
               data-aos="fade-up"
               className="text-3xl font-semibold text-center sm:text-4xl font-serif"
             >
-              What Our Clients Say About Us
+              Avaliações
             </p>
             <p data-aos="fade-up" className="text-center sm:px-44">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Perferendis iure consectetur tempora amet.
+              Nossos alunos e professores deixam o seus comentarios e suas estrelas sobre os projetos
             </p>
           </div>
 

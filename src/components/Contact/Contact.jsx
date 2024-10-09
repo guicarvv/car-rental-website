@@ -12,7 +12,7 @@ const Contact = () => {
                 Let's collaborate on your upcoming car rental venture
               </h1>
               <p className="text-gray-400">
-                Lorem ipsum dolor, sit amet consectetur adipisicing elit.
+                contato aqui ipsum dolor, sit amet consectetur adipisicing elit.
                 Exercitationem necessitatibus quasi et vel,{" "}
               </p>
             </div>
