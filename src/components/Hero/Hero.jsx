@@ -25,7 +25,7 @@ const Hero = ({ theme }) => {
           </div>
           <div className="space-y-5 order-2 sm:order-1 sm:pr-32 ">
             <p data-aos="fade-up" className="text-primary text-2xl font-serif">
-              Isso é a 
+            O que é a
             </p>
             <h1
               data-aos="fade-up"
