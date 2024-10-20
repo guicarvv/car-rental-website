@@ -2,33 +2,34 @@ import React from "react";
 import { FaCameraRetro } from "react-icons/fa";
 import { GiNotebook } from "react-icons/gi";
 import { SlNote } from "react-icons/sl";
+import { IoMdPhonePortrait } from "react-icons/io";
 
 const skillsData = [
   {
-    name: "Best Price",
+    name: "Melhor Visibilidade",
     icon: (
       <FaCameraRetro className="text-5xl text-primary group-hover:text-black duration-300" />
     ),
     link: "#",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    description: "Utilizaremos diversas plataformas de redes sociais para garantir que a S.L.A. obtenha a visibilidade que merece, permitindo que o público reconheça plenamente sua importância e valor",
     aosDelay: "0",
   },
   {
-    name: "Fast and Safe",
+    name: "Propagação da S.L.A",
     icon: (
       <GiNotebook className="text-5xl text-primary group-hover:text-black duration-300" />
     ),
     link: "#",
-    description: "Lorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    description: "Nós, da AGGIV, almejamos que a S.L.A. não seja exclusiva do ITB Brasílio Flores, mas que seja implementada em todas as unidades da FIEB, com o objetivo de criar um ambiente acolhedor e positivo para todos os alunos.",
     aosDelay: "500",
   },
   {
-    name: "Experience Drivers",
+    name: "Nosso APP",
     icon: (
-      <SlNote className="text-5xl text-primary group-hover:text-black duration-500" />
+      <IoMdPhonePortrait className="text-5xl text-primary group-hover:text-black duration-500" />
     ),
     link: "#",
-    description: " EXPERIENCIAorem ipsum dolor sit amet consectetur, adipisicing elit.",
+    description: "Nosso aplicativo oferecerá uma variedade de funcionalidades para que os usuários possam aproveitar ao máximo tudo o que o evento tem a oferecer.",
     aosDelay: "1000",
   },
 ];
@@ -43,7 +44,7 @@ const Services = () => {
               data-aos="fade-up"
               className="text-3xl font-semibold text-center sm:text-4xl font-serif"
             >
-              Why Choose Us
+              Nosso diferencial
             </h1>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4">
@@ -61,7 +62,7 @@ const Services = () => {
                   href={skill.link}
                   className="inline-block text-lg font-semibold py-3 text-primary group-hover:text-black duration-300"
                 >
-                  Learn more
+                  Ver Mais
                 </a>
               </div>
             ))}

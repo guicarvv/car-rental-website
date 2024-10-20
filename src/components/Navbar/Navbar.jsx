@@ -28,7 +28,7 @@ export const Navlinks = [
   },
   {
     id: 5,
-    name: "CADASTRO EQUIPE",
+    name: "CADASTRO PROJETO",
     link: "/#booking",
   },
 ];

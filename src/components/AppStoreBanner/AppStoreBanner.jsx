@@ -1,7 +1,7 @@
 import React from "react";
 import AppStoreImg from "../../assets/website/app_store.png";
 import PlayStoreImg from "../../assets/website/play_store.png";
-import pattern from "../../assets/website/pattern.jpeg";
+import pattern from "../../assets/website/pattern.JPEG";
 
 const bannerImg = {
   backgroundImage: `url(${pattern})`,
@@ -24,11 +24,10 @@ const AppStoreBanner = () => {
               data-aos="fade-up"
               className="text-2xl text-center sm:text-4xl font-semibold font-serif"
             >
-              Get Started with our app
+              Baixe o nosso App
             </h1>
             <p data-aos="fade-up" className="text-center sm:px-20">
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique
-              magnam harum accusantium odit?
+            Baixe agora o nosso aplicativo e desfrute de uma experiência completa e otimizada para aproveitar ao máximo todos os recursos e atividades do evento. Tenha acesso a informações exclusivas, novidades em tempo real e funcionalidades que vão facilitar sua participação!
             </p>
             <div
               data-aos="fade-up"

@@ -6,19 +6,18 @@ import car3 from "../../assets/car6.png";
 const carList = [
   {
     name: "LGBTFOBIA",
-    price: 100,
     image: whiteCar,
     aosDelay: "0",
   },
   {
     name: "RACISMO",
-    price: 140,
+   
     image: car2,
     aosDelay: "500",
   },
   {
     name: "MISOGINIA",
-    price: 100,
+    
     image: car3,
     aosDelay: "1000",
   },
@@ -36,8 +35,7 @@ const CarList = () => {
           Projetos Cadastrados
         </h1>
         <p data-aos="fade-up" aos-delay="400" className="text-sm pb-10">
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolor iure
-          nemo ab?
+          Projetos dos alunos já cadastrados
         </p>
         {/* Car listing */}
         <div>
@@ -58,8 +56,8 @@ const CarList = () => {
                 <div className="space-y-2">
                   <h1 className="text-primary font-semibold">{data.name}</h1>
                   <div className="flex justify-between items-center text-xl font-semibold">
-                    <p>${data.price}/Day</p>
-                    <a href="#">Details</a>
+                    <p>{data.price}Sala-13</p>
+                    <a href="#"></a>
                   </div>
                 </div>
                 <p className="text-xl font-semibold absolute top-0 left-3">

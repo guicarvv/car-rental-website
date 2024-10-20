@@ -19,18 +19,13 @@ const About = () => {
                 data-aos="fade-up"
                 className="text-3xl sm:text-4xl font-bold font-serif"
               >
-                Sobre Nós
+                Sobre Nós 
               </h1>
               <p data-aos="fade-up" className="leading-8 tracking-wide">
-                Bom dia , tudo bem ? dolor sit amet consectetur adipisicing elit.
-                Aspernatur, magnam! Tenetur odio quo et maxime?
-              </p>
-              <p data-aos="fade-up">
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sequi,
-                tempora.
-              </p>
+              Na AGGIV, estamos comprometidos em oferecer uma experiência única e inesquecível na S.L.A. Para isso, dedicamos nossos esforços para garantir que cada aspecto do evento seja cuidadosamente planejado e executado, desde a organização até a divulgação. Queremos que os alunos possam aproveitar ao máximo tudo o que a S.L.A. tem a oferecer, participando de todas as atividades e oportunidades sem que nada passe despercebido. Nosso objetivo é criar um evento que deixe uma marca positiva, proporcionando momentos de aprendizado, interação e crescimento que perdurem na memória de cada participante.              </p>
+           
               <button data-aos="fade-up" className="button-outline">
-                Get Started
+                Ver Mais
               </button>
             </div>
           </div>

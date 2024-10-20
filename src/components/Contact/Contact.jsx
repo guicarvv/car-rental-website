@@ -9,11 +9,11 @@ const Contact = () => {
           <div className="grid grid-cols-1 sm:grid-cols-3 gap-6 bg-gray-800 py-8 px-6">
             <div className="col-span-2 space-y-3">
               <h1 className="text-4xl sm:text-5xl font-bold text-white">
-                Let's collaborate on your upcoming car rental venture
+               
+Sua opinião é importante para nós!
               </h1>
               <p className="text-gray-400">
-                contato aqui ipsum dolor, sit amet consectetur adipisicing elit.
-                Exercitationem necessitatibus quasi et vel,{" "}
+              Tem algo que você gostaria de ver na S.L.A.? Alguma crítica, dúvida ou informação que deseja saber mais? Compartilhe seu feedback e nos ajude a melhorar.{" "}
               </p>
             </div>
             <div className="sm:grid sm:place-items-center">
@@ -21,7 +21,7 @@ const Contact = () => {
                 href="#"
                 className="inline-block font-semibold py-2 px-6 bg-primary text-white hover:bg-primary/80 duration-200 tracking-widest uppercase "
               >
-                Contact
+                Contate-nos
               </a>
             </div>
           </div>

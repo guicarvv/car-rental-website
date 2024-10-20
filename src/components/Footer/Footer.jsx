@@ -13,16 +13,16 @@ const FooterLinks = [
     link: "/#",
   },
   {
-    title: "About",
+    title: "Sobre Nós",
     link: "/#about",
   },
   {
-    title: "Contact",
+    title: "Contate-nos",
     link: "/#contact",
   },
   {
-    title: "Blog",
-    link: "/#blog",
+    title: "Diferencial",
+    link: "/#Servces",
   },
 ];
 const Footer = () => {
@@ -33,20 +33,18 @@ const Footer = () => {
           {/* company Details */}
           <div className=" py-8 px-4 ">
             <h1 className="sm:text-3xl text-xl font-bold sm:text-left text-justify mb-3 flex items-center gap-3 font-serif">
-              Car Rental
+              AGGIV
             </h1>
             <p className="text-sm">
-              Lorem ipsum dolor sit amet consectetur. Lorem ipsum dolor sit amet
-              consectetur adipisicing elit. Possimus, voluptate.{" "}
-            </p>
+            Aqui, sua experiência é nossa maior prioridade.       </p>
             <br />
             <div className="flex items-center gap-3">
               <FaLocationArrow />
-              <p>Noida, Uttar Pradesh</p>
+              <p>São Paulo, Barueri</p>
             </div>
             <div className="flex items-center gap-3 mt-3">
               <FaMobileAlt />
-              <p>+91 123456789</p>
+              <p>+11 937068460</p>
             </div>
             {/* Social Handle */}
             <div className="flex items-center gap-3 mt-6">
