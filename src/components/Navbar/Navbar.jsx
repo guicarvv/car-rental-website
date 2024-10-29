@@ -29,7 +29,7 @@ export const Navlinks = [
   {
     id: 5,
     name: "CADASTRO PROJETO",
-    link: "/#booking",
+    link: " http://localhost:5174/",
   },
 ];
 

@@ -1,8 +1,9 @@
-import React, { Component, useEffect, useState } from "react";
+import React, { useEffect, useState } from "react";
+import { BrowserRouter as Router, Route, Routes, Link } from "react-router-dom";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
-// Component import
+// Component imports
 import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import About from "./components/About/About";
@@ -12,6 +13,7 @@ import AppStoreBanner from "./components/AppStoreBanner/AppStoreBanner";
 import Contact from "./components/Contact/Contact";
 import Testimonial from "./components/Testimonial/Testimonial";
 import Footer from "./components/Footer/Footer";
+import ContactUs from "./components/ContactUs/contato"; // Importando o componente de contato
 
 const App = () => {
   // dark mode start
@@ -31,7 +33,7 @@ const App = () => {
   }, [theme]);
   // dark mode end
 
-  React.useEffect(() => {
+  useEffect(() => {
     AOS.init({
       offset: 100,
       duration: 800,
@@ -40,18 +42,35 @@ const App = () => {
     });
     AOS.refresh();
   }, []);
+
   return (
-    <div className="bg-white dark:bg-black dark:text-white text-black overflow-x-hidden">
-      <Navbar theme={theme} setTheme={setTheme} />
-      <Hero theme={theme} />
-      <About />
-      <Services />
-      <CarList />
-      <Testimonial />
-      <AppStoreBanner />
-      <Contact />
-      <Footer />
-    </div>
+    <Router>
+      <div className="bg-white dark:bg-black dark:text-white text-black overflow-x-hidden">
+        <Navbar theme={theme} setTheme={setTheme} />
+        <Hero theme={theme} />
+        <About />
+        <Services />
+        <CarList />
+        <Testimonial />
+        <AppStoreBanner />
+        
+        {/* Aqui está o link para a página de contato */}
+        <Link
+          to="/contact" // Altere aqui
+          className="inline-block font-semibold py-2 px-6 bg-primary text-white hover:bg-primary/80 duration-200 tracking-widest uppercase"
+        >
+          Contate-nos
+        </Link>
+
+        {/* Configuração das rotas */}
+        <Routes>
+          <Route path="/" element={<Contact />} /> {/* Substitua pelo componente da sua página inicial */}
+          <Route path="/contact" element={<ContactUs />} /> {/* Página de contato */}
+        </Routes>
+
+        <Footer />
+      </div>
+    </Router>
   );
 };
 
